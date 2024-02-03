@@ -1805,7 +1805,7 @@ input, select, textarea {
 
 	header.project h3 {
 		color: #4acaa8;
-		font-size: 3.0em;
+		font-size: 2.5em;
 	}
 
 	header.project h3 + p {
@@ -3180,7 +3180,7 @@ input, select, textarea {
 				}
 
 			header.project h3 {
-				font-size: 2.5em;
+				font-size: 2.0em;
 			}
 
 				header.project h3 + p {
