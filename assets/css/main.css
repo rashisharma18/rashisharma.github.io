@@ -1789,6 +1789,11 @@ input, select, textarea {
 		font-size: 3.5em;
 	}
 
+	header.project h3 {
+		color: #4acaa8;
+		font-size: 3.0em;
+	}
+
 		header.major h2 + p {
 			color: #777;
 			font-size: 1.75em;
