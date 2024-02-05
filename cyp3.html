@@ -65,7 +65,13 @@
 									<header>
 										<h3>Solution and Approach</h3>
 									</header>
-									<p align="justify"><u>Vulnerable Application Deployment:</u> An web application vulnerable to Brute Force, SQL Injection and Command Injection was deployed on the AWS Cloud.<br> <u>Malware Discovery and Traffic Analysis:</u> After combing through multiple stored files and folders, a few obfuscated binaries were discovered and analyzed and traffic analysis was conducted using Wireshark.<br><u>Unveiling encrypted code:</u>The evidence obtained via traffic analysis pointed to encrypted data on the drive which was decrypted using VeraCrypt, which contained deobfuscated versions of the malware. </p>
+									<p align="justify"><u>Vulnerable Application Deployment:</u> A web application vulnerable to Brute Force, SQL Injection and Command Injection was deployed on the AWS Cloud.<br> <u>Thrat Analysis:</u> A complete Threat Analysis on the Web Architecture was conduced using the Microsoft Threat Modelling Tool, mapping threats into the STRIDE Framework.<br>
+									<ul>
+									<li> <u>User View:</u> The deployed application was analyzed from the user view, and a Threat Model was developed assuming a threat originating from outside the environment.</li>
+									<li> <u>Administration View:</u> The deployed application was analyzed from the administration view, and a Threat Model was developed assuming a threat originating from within the production environment.</li>
+									<li> <u>Custom Threat Modelling Template:</u> The Microsoft Threat Modelling Tool does not contain a stencil for Amazon Web Services resources. Therefore, a new stencil was created to include AWS resources. This involved adding the resources, mapping the threats associated with each resource (S3, EC2), and categorizing the threats into the existing STRIDE Framework. The resulting stencil was then merged with the existing stencil to create a comprehensive Threat Model to accurately map the threats associated with the deployed architecture.</li>
+									</ul>
+									After combing through multiple stored files and folders, a few obfuscated binaries were discovered and analyzed and traffic analysis was conducted using Wireshark.<br><u>Unveiling encrypted code:</u>The evidence obtained via traffic analysis pointed to encrypted data on the drive which was decrypted using VeraCrypt, which contained deobfuscated versions of the malware. </p>
 									<header>
 										<h3>Skills</h3>
 									</header>
