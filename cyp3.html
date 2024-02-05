@@ -65,32 +65,34 @@
 									<header>
 										<h3>Solution and Approach</h3>
 									</header>
-									<p align="justify"><u>Vulnerable Application Deployment:</u> A web application vulnerable to Brute Force, SQL Injection and Command Injection was deployed on the AWS Cloud.<br> <u>Thrat Analysis:</u> A complete Threat Analysis on the Web Architecture was conduced using the Microsoft Threat Modelling Tool, mapping threats into the STRIDE Framework.<br>
+									<p align="justify"><u>Vulnerable Application Deployment:</u> A web application vulnerable to Brute Force, SQL Injection and Command Injection was deployed on the AWS Cloud.<br> <u>Thrat Analysis:</u> A complete Threat Analysis on the Web Architecture was conduced using the Microsoft Threat Modelling Tool, mapping threats into the STRIDE Framework.
 									<ul>
 									<li> <u>User View:</u> The deployed application was analyzed from the user view, and a Threat Model was developed assuming a threat originating from outside the environment.</li>
 									<li> <u>Administration View:</u> The deployed application was analyzed from the administration view, and a Threat Model was developed assuming a threat originating from within the production environment.</li>
 									<li> <u>Custom Threat Modelling Template:</u> The Microsoft Threat Modelling Tool does not contain a stencil for Amazon Web Services resources. Therefore, a new stencil was created to include AWS resources. This involved adding the resources, mapping the threats associated with each resource (S3, EC2), and categorizing the threats into the existing STRIDE Framework. The resulting stencil was then merged with the existing stencil to create a comprehensive Threat Model to accurately map the threats associated with the deployed architecture.</li>
 									</ul>
-									After combing through multiple stored files and folders, a few obfuscated binaries were discovered and analyzed and traffic analysis was conducted using Wireshark.<br><u>Unveiling encrypted code:</u>The evidence obtained via traffic analysis pointed to encrypted data on the drive which was decrypted using VeraCrypt, which contained deobfuscated versions of the malware. </p>
+									<u>Offensive Analysis:</u> An attack was consucted on the deployed Web Application, following the steps of the Lockheed Martin Kill Chain. This analysis provided an opportunity to map an attacker's TTPs with the Cyber Kill Chain.<br><u>Defensive Analysis:</u> A step-by-step Defensive Analysis was conducted to propose security recommendations to prevent exploitation at each stage fo the Kill Chain. </p>
 									<header>
 										<h3>Skills</h3>
 									</header>
 									<p align="justify">Here are the skills I used and learned during this project</p>
 									<ul class="feature-icons">
-										<li class="icon solid fa-code"><u>Tools Used:</u> Autopsy, Wireshark, VeraCrypt</li>
-										<li class="icon solid fa-code">Digital Forensics Analysis</li>
-										<li class="icon solid fa-code">Malware Analysis</li>
-										<li class="icon solid fa-code">Reverse Software Engineering</li>
-										<li class="icon solid fa-code">HTTP/S Traffic Analysis</li>
+										<li class="icon solid fa-code"><u>Cloud Service Used:</u>Amazon Web Services</li>
+										<li class="icon solid fa-code">Web Application Deployment on AWS</li>
+										<li class="icon solid fa-code">Lockheed Martin Kill Chain</li>
+										<li class="icon solid fa-code">Microsoft Threat Modelling Tool</li>
+										<li class="icon solid fa-code">Comprehensive Threat Analysis</li>
+										<li class="icon solid fa-code">Ethical Hacking</li>
+										<li class="icon solid fa-code">STRIDE Framework</li>
 									</ul>
 									<header>
 										<h3>Impact</h3>
 									</header>
-									<p align="justify">This project helped me get hands-on experience on performing Forensic Analysis on an Image, look for evidence in packet captures and learn the basics of reverse engineering obfuscated code to gain a basic understanding of the functionality of a binary. I also discovered new tools: Autopsy and VeraCrypt.</p>
+									<p align="justify">This project helped me get hands-on experience in conducting a comprhensive Threat Modelling exercise. I was also able to research the Microsoft Threat Modelling Tool, and a deep-dive into the threat landscape associated with the AWS resources from the viewpoint of the STRIDE Framework.</p>
 									<header>
 										<h3>Links:</h3>
 									</header>
-									<p align="justify" style="color:#4BCAA9"><a href=cyp3/CY3_Network_Diagram.png class="active">Web Application Architecture</a>
+									<p align="justify" style="color:#4BCAA9"><a href=cyp3/CY3_Network_Diagram.png class="active">Web Application Architecture</a><br>
 								</div>
 							</section>
 <!--
