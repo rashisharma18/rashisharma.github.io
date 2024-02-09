@@ -2098,15 +2098,14 @@ input, select, textarea {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Adjust column count as needed */
   gap: 50px;
-  padding: 50px;
   justify-items: center;
 }
 
 .flip-card {
   background-color: transparent;
   perspective: 1000px;
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
 
 }
 
@@ -2132,6 +2131,7 @@ input, select, textarea {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 1px solid #d3d3d3;
 }
 
 .card-text {
