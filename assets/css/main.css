@@ -2096,15 +2096,15 @@ input, select, textarea {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Adjust column count as needed */
-  gap: 20px;
-  padding: 20px;
+  grid-template-columns: repeat(2, 1fr); /* Adjust column count as needed */
+  gap: 50px;
+  padding: 50px;
 }
 
 .flip-card {
   background-color: transparent;
   perspective: 1000px;
-  width: 250px;
+  width: 300px;
 }
 
 .flip-card-inner {
@@ -2133,17 +2133,17 @@ input, select, textarea {
 
 .card-text {
   text-align: center;
-  font-size: 20px; /* Adjusted for visibility */
-  color: #4BCAA9; /* Ensure text is visible on front */
+  font-size: 30px; /* Adjusted for visibility */
+  color: white; /* Ensure text is visible on front */
 }
 
 .flip-card-front {
-  background-color: #888;
+  background-color: #D3D3D3;
   color: #4BCAA9;
 }
 
 .flip-card-back {
-  background-color: #888;
+  background-color: #D3D3D3;
   color: #4BCAA9;
   transform: rotateY(180deg);
 }
