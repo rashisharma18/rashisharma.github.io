@@ -2105,8 +2105,8 @@ input, select, textarea {
 .flip-card {
   background-color: transparent;
   perspective: 1000px;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
 
 }
 
@@ -2137,7 +2137,7 @@ input, select, textarea {
 
 .card-text {
   text-align: center;
-  font-size: 1.25em; /* Adjusted for visibility */
+  font-size: 1.00em; /* Adjusted for visibility */
   color: white; /* Ensure text is visible on front */
 }
 
