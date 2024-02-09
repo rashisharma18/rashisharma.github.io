@@ -2098,6 +2098,7 @@ input, select, textarea {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Adjust column count as needed */
   gap: 50px;
+  padding: 50px;
   justify-items: center;
 }
 
@@ -2131,7 +2132,7 @@ input, select, textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 10px solid #d3d3d3;
+  border: 5px solid #d3d3d3;
 }
 
 .card-text {
