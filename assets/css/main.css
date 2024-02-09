@@ -2137,7 +2137,7 @@ input, select, textarea {
 
 .card-text {
   text-align: center;
-  font-size: 30px; /* Adjusted for visibility */
+  font-size: 1.25em; /* Adjusted for visibility */
   color: white; /* Ensure text is visible on front */
 }
 
