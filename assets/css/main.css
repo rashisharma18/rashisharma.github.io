@@ -1825,7 +1825,7 @@ input, select, textarea {
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		position: relative;
-		margin: 0 0 0.5625em 0;
+		margin: 0 0 2.25em 0;
 	}
 
 		.tiles article {
@@ -1835,7 +1835,7 @@ input, select, textarea {
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			position: relative;
 			width: calc(33.33333% - 2.5em);
-			margin: 2.5em 0 0 2.5em;
+			margin: 0 0 2.25em 0;
 		}
 
 			.tiles article > .image {
@@ -1845,7 +1845,7 @@ input, select, textarea {
 				transition: transform 0.5s ease;
 				position: relative;
 				display: block;
-				width: 100%;
+				width: 50%;
 				border-radius: 4px;
 				overflow: hidden;
 			}
