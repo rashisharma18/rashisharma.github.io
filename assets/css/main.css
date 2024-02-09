@@ -2105,8 +2105,8 @@ input, select, textarea {
 .flip-card {
   background-color: transparent;
   perspective: 1000px;
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
 
 }
 
