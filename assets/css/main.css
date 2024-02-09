@@ -2104,8 +2104,8 @@ input, select, textarea {
 .flip-card {
   background-color: transparent;
   perspective: 1000px;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
 
 }
 
@@ -2131,7 +2131,7 @@ input, select, textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #d3d3d3;
+  border: 10px solid #d3d3d3;
 }
 
 .card-text {
